@@ -18,6 +18,11 @@
     src: url('fonts/FiraSans-Bold.ttf') format('truetype');
 }
 
+@font-face {
+    font-family: 'Poppins';
+    src: url('fonts/Poppins-SemiBold.ttf') format('truetype');
+}
+
 body {
     background-color: black;
 }
@@ -147,13 +152,39 @@ body {
 }
 
 .tags {
+    font-size: 13px;
+    font-family: Poppins;
     text-align: center;
     color: #28A9E0 !important;
+}
+
+.texto_rodape {
+    font-size: 14px;
+    font-family: "Fira Sans";
+    padding: 0 0 0 10rem;
+}
+
+.dados_rodape {
+    color: #D2D2D2 !important;
+}
+
+.copyright {
+    font-size: 14px;
+    font-family: "Fira Sans Bold";
 }
 
 /*celular*/
 @media (max-width: 600px) {
     .cabecalho h1 {
         font-size: 20px;
+    }
+}
+
+/*computador*/
+@media (min-width: 601px) {
+    .copyright {
+        white-space: nowrap;
+        position: absolute;
+        right: 25rem;
     }
 }
