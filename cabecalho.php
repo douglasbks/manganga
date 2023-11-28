@@ -1,4 +1,4 @@
-<div class="cabecalho">
+<div id="cabecalho" class="cabecalho">
     <div class="row">
         <div class="col-6 col-md-2">
             <img src="img/logo.png">

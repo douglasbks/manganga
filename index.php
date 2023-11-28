@@ -13,7 +13,11 @@
 
     </style>
 </head>
-
+<script>
+    function subirSite() {
+        document.getElementById('cabecalho').scrollIntoView({ behavior: 'smooth' });
+    }
+</script>
 <body>
 <div class="container">
     <?php include('cabecalho.php') ?>

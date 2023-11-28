@@ -10,6 +10,11 @@
 
 @font-face {
     font-family: 'Fira Sans';
+    src: url('fonts/FiraSans-Medium.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Fira Sans Bold';
     src: url('fonts/FiraSans-Bold.ttf') format('truetype');
 }
 
@@ -81,8 +86,56 @@ body {
     background-color: #CF2669;
 }
 
+.barras {
+    width: 100%;
+    height: 100%;
+}
+
+.formulario {
+    margin: 0 5px 0 5px;
+}
+
+.form-label {
+    font-family: "Fira Sans";
+}
+
 .form-control {
     background-color: #DDDDDD;
+    border-style: groove;
+    border-color: #808080;
+}
+
+.textarea-wrapper {
+    position: relative;
+}
+
+.textarea-container {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.textarea-container textarea {
+    flex: 1;
+    margin-bottom: 5px;
+    margin-left: 8px;
+}
+
+.btn-enviar {
+    position: absolute;
+    bottom: 15px;
+    right: 5px;
+    font-family: "Fira Sans Bold";
+    border-style: none;
+    background-color: #DDDDDD;
+}
+
+.ic_redes_sociais {
+    margin: 5px 5px 5px 5px;
+}
+
+.seta_cima {
+    cursor: pointer;
 }
 
 .rodape {
