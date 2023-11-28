@@ -25,11 +25,60 @@ body {
     color: #2D3192;
     font-family: "Russo One";
     font-weight: bold;
-    font-size: 40px;
+    font-size: 45px;
+    margin: 5px;
 }
 
 .maganga-roxo {
     color: #90225F;
+}
+
+.botao_menu {
+    height: 5.1rem;
+    width: 15%;
+    font-family: "Bebas Neue";
+    color: white;
+    font-size: 25px;
+    border: none;
+    border-radius: 10px;
+    vertical-align: middle;
+    margin: 0 5px 0 0;
+}
+
+.botao_icone_celular {
+    height: 4rem;
+    width: 4rem;
+}
+
+.botao_menu_celular {
+    height: 4rem;
+    width: 6rem;
+    font-family: "Bebas Neue";
+    color: white;
+    border: none;
+    border-radius: 10px;
+    vertical-align: middle;
+    margin: 5px 5px 5px 0;
+}
+
+.botao_azul {
+    background-color: #29AAE1;
+}
+
+.botao_verde {
+    background-color: #29CEA4;
+}
+
+.botao_laranja {
+    background-color: #FF6B51;
+}
+
+.botao_amarelo {
+    background-color: #FFC700;
+}
+
+.botao_rosa {
+    background-color: #CF2669;
 }
 
 .form-control {
