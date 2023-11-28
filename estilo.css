@@ -161,7 +161,6 @@ body {
 .texto_rodape {
     font-size: 14px;
     font-family: "Fira Sans";
-    padding: 0 0 0 10rem;
 }
 
 .dados_rodape {
@@ -182,6 +181,10 @@ body {
 
 /*computador*/
 @media (min-width: 601px) {
+    .texto_rodape {
+        padding: 0 0 0 10rem;
+    }
+
     .copyright {
         white-space: nowrap;
         position: absolute;
