@@ -1,0 +1,57 @@
+@font-face {
+    font-family: 'Russo One';
+    src: url('fonts/RussoOne-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Bebas Neue';
+    src: url('fonts/BebasNeue-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Fira Sans';
+    src: url('fonts/FiraSans-Bold.ttf') format('truetype');
+}
+
+body {
+    background-color: black;
+}
+
+.cabecalho, .contato {
+    background-color: white;
+}
+
+.cabecalho h1 {
+    color: #2D3192;
+    font-family: "Russo One";
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.maganga-roxo {
+    color: #90225F;
+}
+
+.form-control {
+    background-color: #DDDDDD;
+}
+
+.rodape {
+    background-color: #383838;
+}
+
+.rodape p {
+    color: white;
+}
+
+.tags {
+    text-align: center;
+    color: #28A9E0 !important;
+}
+
+/*celular*/
+@media (max-width: 600px) {
+    .cabecalho h1 {
+        font-size: 20px;
+    }
+}
