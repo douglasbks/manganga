@@ -1,4 +1,4 @@
-<?php $pag= $pag ?? 'home'?>
+<?php $_GET['pag'] = $_GET['pag'] ?? 'home'?>
 <!DOCTYPE html>
 
 <html>
@@ -19,7 +19,7 @@
 <body>
 <div class="container">
     <?php include('cabecalho.php');
-    //include("view/$pag.php");
+    include("view/{$_GET['pag']}.php");
     include('contato.php');
     include('rodape.php');
     ?>

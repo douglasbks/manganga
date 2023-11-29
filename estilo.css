@@ -19,6 +19,11 @@
 }
 
 @font-face {
+    font-family: 'Fira Sans SemiBold';
+    src: url('fonts/FiraSans-SemiBold.ttf') format('truetype');
+}
+
+@font-face {
     font-family: 'Fira Sans Regular';
     src: url('fonts/FiraSans-Regular.ttf') format('truetype');
 }
@@ -91,7 +96,7 @@ body {
     background-color: #FFFFFF;
     border: 2px solid #29AAE1;
     text-decoration: none;
-    color:#29AAE1;
+    color: #29AAE1;
 }
 
 .botao_verde {
@@ -102,7 +107,7 @@ body {
     background-color: #FFFFFF;
     border: 2px solid #29CEA4;
     text-decoration: none;
-    color:#29CEA4;
+    color: #29CEA4;
 }
 
 .botao_laranja {
@@ -113,7 +118,7 @@ body {
     background-color: #FFFFFF;
     border: 2px solid #FF6B51;
     text-decoration: none;
-    color:#FF6B51;
+    color: #FF6B51;
 }
 
 .botao_amarelo {
@@ -124,7 +129,7 @@ body {
     background-color: #FFFFFF;
     border: 2px solid #FFC700;
     text-decoration: none;
-    color:#FFC700;
+    color: #FFC700;
 }
 
 .botao_rosa {
@@ -135,7 +140,7 @@ body {
     background-color: #FFFFFF;
     border: 2px solid #CF2669;
     text-decoration: none;
-    color:#CF2669;
+    color: #CF2669;
 }
 
 .barras {
@@ -294,11 +299,11 @@ body {
 /*computador*/
 @media (min-width: 601px) {
     .logo {
-        padding:15px;
+        padding: 15px;
     }
 
     .maganga-roxo {
-        font-size:57px;
+        font-size: 57px;
     }
 
     .texto_barra {
@@ -315,15 +320,128 @@ body {
     }
 }
 
-
-
 /*HOME*/
 .card-img-top {
     width: 25%;
     height: 25%;
 }
 
+.cards_home {
+    background-color: #E6E9EE;
+}
+
+.numeral {
+    font-family: 'Impact';
+    font-size: 100px;
+    color: #1F4667;
+    text-align: center;
+}
+
+.subtexto-card {
+    font-family: "Fira Sans";
+    color: #1F4667;
+    font-size: 29px;
+    text-align: center;
+}
+
 .btn-primary {
     background-color: #8C0000;
     border-color: #8C0000;
+    font-family: 'Fira Sans';
+}
+
+.titulo-card-2 {
+    font-family: "Fira Sans";
+    font-size: 35px;
+    color: #1F4668;
+}
+
+.texto-card-2 {
+    font-family: "Fira Sans";
+    font-size: 16px;
+    color: #333333;
+}
+
+.link-card-2 {
+    font-family: "Fira Sans";
+    font-size: 16px;
+    color: #8C0000;
+    text-decoration: none;
+}
+
+/*computador*/
+@media (min-width: 601px) {
+    .img_carrossel {
+        height: 500px;
+    }
+
+    .cartao-home-1 {
+        width: 15rem;
+        height: 20rem;
+        align-items: center;
+        border-style: none;
+        border-radius: 10px;
+        background-color: white;
+        z-index: 1;
+        margin: -2rem 1rem 0 1rem
+    }
+
+    .cartao-home-2 {
+        border-style: none;
+        background-color: white;
+        margin: 2rem;
+        height: 100%;
+    }
+}
+
+
+/*PAGINA INTERNA*/
+.cards_interno {
+    background-color: #E6E9EE;
+}
+
+.card-preto {
+    background-color: black;
+    width: 18rem;
+}
+
+.img_card_preto {
+    margin: 0.5rem;
+}
+
+.titulo-card-preto {
+    font-family: "Fira Sans SemiBold";
+    font-size: 18px;
+    color: white;
+    text-align: center;
+}
+
+.texto-card-preto {
+    font-family: "Fira Sans";
+    font-size: 14px;
+    color: white;
+    text-align: center;
+}
+
+.text-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.btn-secondary {
+    background-color: #CF276A;
+    border-style: solid;
+    border-color: white;
+    border-radius: 1rem;
+    font-family: "Fira Sans Bold";
+    color: white;
+}
+
+/*celular*/
+@media (max-width: 600px) {
+   .modelo_interno {
+       height: 50%;
+   }
 }
