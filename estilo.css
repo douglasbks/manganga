@@ -47,7 +47,6 @@ body {
 
 .maganga-roxo {
     color: #90225F;
-    font-size:57px;
 }
 
 .botao_menu {
@@ -158,8 +157,9 @@ body {
 
 .form-control {
     background-color: #DDDDDD;
-    border-style: groove;
-    border-color: #808080;
+    border-style: solid;
+    border-color: #CACAD2;
+
 }
 
 .textarea-wrapper {
@@ -167,28 +167,48 @@ body {
 }
 
 .textarea-container {
+    position: relative;
+}
+
+.textarea-flex {
     display: flex;
     flex-direction: column;
     position: relative;
 }
 
-.textarea-container textarea {
-    flex: 1;
+.textarea-flex textarea {
     margin-bottom: 5px;
     margin-left: 8px;
+    resize: none;
+    box-sizing: border-box;
+    flex: 1;
 }
 
 .btn-enviar {
-    position: absolute;
-    bottom: 15px;
-    right: 5px;
     font-family: "Fira Sans Bold";
     border-style: none;
     background-color: #DDDDDD;
+    align-self: flex-end;
+    margin-top: -2.5rem;
+    z-index: 1;
 }
 
-.endereco {
-    background-color: #DDDDDD;
+.endereco-label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.endereco-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: -10px;
+    padding-top: 0;
+}
+
+.endereco-content img,
+.endereco-content p {
+    margin-bottom: 5px;
 }
 
 .endereco p {
@@ -252,10 +272,18 @@ body {
     .cabecalho h1 {
         font-size: 20px;
     }
+
+    .btn-enviar {
+        font-size: 0.7rem;
+    }
 }
 
 /*computador*/
 @media (min-width: 601px) {
+    .maganga-roxo {
+        font-size:57px;
+    }
+
     .texto_rodape {
         padding: 0 0 0 10rem;
     }
