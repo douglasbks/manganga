@@ -143,6 +143,14 @@ body {
     height: 100%;
 }
 
+.texto_barra {
+    font-family: "Russo One";
+    color: #FFFFFF;
+    text-align: right;
+    z-index: 1;
+    padding-right: 2rem;
+}
+
 .contato {
     background-color: #F1F1F1;
 }
@@ -180,7 +188,6 @@ body {
 
 .textarea-flex textarea {
     margin-bottom: 5px;
-    margin-left: 8px;
     resize: none;
     box-sizing: border-box;
     flex: 1;
@@ -275,6 +282,11 @@ body {
     .cabecalho h1 {
         font-size: 20px;
     }
+
+    .texto_barra {
+        margin-top: -1.5rem;
+        font-size: 1rem;
+    }
 }
 
 /*computador*/
@@ -285,6 +297,11 @@ body {
 
     .maganga-roxo {
         font-size:57px;
+    }
+
+    .texto_barra {
+        margin-top: -3rem;
+        font-size: 32px;
     }
 
     .texto_rodape {

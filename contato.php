@@ -1,5 +1,6 @@
 <div class="contato">
-    <img src="img/barra_cinza.png" class="barras">
+    <img src="img/topo_formmail.png" class="barras">
+    <p class="texto_barra">Contato Mangangá</p>
     <form>
         <div class="row formulario">
             <div class="col-12 col-md-4">
