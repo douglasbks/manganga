@@ -1,5 +1,5 @@
 <div class="rodape">
-    <p class="tags">Mangangá | Patrono | Projetos Educacionais | Música nas Empresas | Portfólio Meninos</p>
+    <p class="tags"><span>Mangangá</span> | <span>Patrono</span> | <span>Projetos Educacionais</span> | <span>Música nas Empresas</span> | <span>Portfólio Meninos</span></p>
     <div class="row">
         <div class="col-4">
             <p class="texto_rodape"><b>E-mail: </b><span class="dados_rodape">adm@capoeiramanganga.com.br</span></p>
