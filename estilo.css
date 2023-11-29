@@ -216,6 +216,7 @@ body {
     padding-top: 0;
 }
 
+
 .endereco-content img,
 .endereco-content p {
     margin-bottom: 5px;
@@ -237,6 +238,7 @@ body {
 
 .seta_cima {
     cursor: pointer;
+    margin-bottom: 5px;
 }
 
 .rodape {
@@ -309,9 +311,7 @@ body {
     }
 
     .copyright {
-        white-space: nowrap;
-        position: absolute;
-        right: 25rem;
+        margin-right: 2rem;
     }
 }
 

@@ -7,7 +7,7 @@
             <p class="texto_rodape"><b>Telefone: </b><span class="dados_rodape">+55 71 99999-9999</span></p>
         </div>
         <div class="col-4 d-flex justify-content-center align-items-center">
-            <img src="img/logo_preto_branco.png">
+            <img src="img/logo_preto_branco.png" class="logo">
         </div>
         <div class="col-4 d-flex justify-content-center align-items-center">
             <p class="copyright">COPYRIGHT &copy; <?= date('Y') ?> MANGANGÁ TODOS OS DIREITOS RESERVADOS.</p>
