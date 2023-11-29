@@ -2,7 +2,7 @@
     <img src="img/barra_cinza.png" class="barras">
     <form>
         <div class="row formulario">
-            <div class="col-4">
+            <div class="col-12 col-md-4">
                 <label for="nome" class="form-label">Nome</label>
                 <input type="text" class="form-control" id="nome"">
 
@@ -12,18 +12,18 @@
                 <label for="assunto" class="form-label">Assunto</label>
                 <input type="text" class="form-control" id="assunto"">
             </div>
-            <div class="col-4">
+            <div class="col-12 col-md-4">
                 <div class="textarea-wrapper">
                     <label for="mensagem" class="form-label">Mensagem</label>
                     <div class="textarea-container">
                         <div class="textarea-flex">
-                            <textarea class="form-control" id="mensagem" rows="7"></textarea>
+                            <textarea class="form-control" id="mensagem" rows="9"></textarea>
                             <button type="submit" class="btn-enviar">ENVIAR<img src="img/enviar.png"></button>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="col-4">
+            <div class="col-12 col-md-4">
                 <div class="endereco">
                     <span class="form-label endereco-label">Endereços</span>
                     <div class="form-control endereco-content">
