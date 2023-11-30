@@ -320,10 +320,16 @@ body {
     }
 }
 
+
 /*HOME*/
 .card-img-top {
     width: 25%;
     height: 25%;
+}
+
+.centralizar-cartoes {
+    display: flex;
+    justify-content: center;
 }
 
 .cards_home {
@@ -344,22 +350,38 @@ body {
     text-align: center;
 }
 
+.box_subtitulo {
+    font-family: "Fira Sans";
+    font-size: 25px;
+    color: white;
+    border-style: solid;
+    border-color: #204669;
+    background-color: #204669;
+    width: 50%;
+}
+
 .btn-primary {
     background-color: #8C0000;
     border-color: #8C0000;
     font-family: 'Fira Sans';
 }
 
+.card-preto {
+    margin: 2rem;
+}
+
 .titulo-card-2 {
     font-family: "Fira Sans";
     font-size: 35px;
     color: #1F4668;
+    margin: 0 5rem 0 0;
 }
 
 .texto-card-2 {
     font-family: "Fira Sans";
     font-size: 16px;
     color: #333333;
+    margin: 0 5rem 0 0;
 }
 
 .link-card-2 {
@@ -367,10 +389,15 @@ body {
     font-size: 16px;
     color: #8C0000;
     text-decoration: none;
+    margin: 2rem 5rem 0 0;
 }
 
 /*computador*/
 @media (min-width: 601px) {
+    .carousel-indicators {
+        bottom: 30px;
+    }
+
     .img_carrossel {
         height: 500px;
     }
@@ -383,14 +410,13 @@ body {
         border-radius: 10px;
         background-color: white;
         z-index: 1;
-        margin: -2rem 1rem 0 1rem
+        margin: -2rem 1rem 1rem 1rem
     }
 
     .cartao-home-2 {
         border-style: none;
         background-color: white;
         margin: 2rem;
-        height: 100%;
     }
 }
 
