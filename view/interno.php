@@ -17,7 +17,9 @@
                 laborum
                 officia hic totam
                 excepturi et galisum voluptates.</p>
+            <br><br>
             <h2 class="box_subtitulo">História <i class="fa fa-arrow-circle-o-down fa-xs" aria-hidden="true" style="float: right; margin-top: 1rem; margin-right: 0.5rem"></i></h2>
+            <br>
             <p class="texto-card-2">Lorem ipsum dolor sit amet. Eum voluptatem explicabo qui
                 laborum
                 officia hic totam
