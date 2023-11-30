@@ -208,8 +208,17 @@ body {
     color: #333333;
 }
 
-iframe {
+.maps {
+    border-style: solid;
+    border-color: #CACAD2;
     margin-top: 0.5rem;
+}
+
+iframe {
+    margin: 0.75rem 0;
+    border-style: solid;
+    border-color: #CACAD2;
+    display:block;
 }
 
 .endereco-label {
@@ -329,6 +338,8 @@ iframe {
 .card-img-top {
     width: 25%;
     height: 25%;
+    margin-top: 16px;
+
 }
 
 .centralizar-cartoes {
@@ -345,6 +356,7 @@ iframe {
     font-size: 100px;
     color: #1F4667;
     text-align: center;
+    line-height: 80%;
 }
 
 .subtexto-card {
@@ -352,6 +364,10 @@ iframe {
     color: #1F4667;
     font-size: 29px;
     text-align: center;
+    line-height: 120%;
+    font-weight: bold;
+    margin-bottom: 0.1rem;
+
 }
 
 .box_subtitulo {
@@ -368,6 +384,7 @@ iframe {
     background-color: #8C0000;
     border-color: #8C0000;
     font-family: 'Fira Sans';
+    margin: 0 20px;
 }
 
 .card-preto {
@@ -385,7 +402,7 @@ iframe {
     font-family: "Fira Sans";
     font-size: 16px;
     color: #333333;
-    margin: 0 5rem 0 0;
+    margin: 1rem;
 }
 
 .link-card-2 {
@@ -393,7 +410,11 @@ iframe {
     font-size: 16px;
     color: #8C0000;
     text-decoration: none;
-    margin: 2rem 5rem 0 0;
+    margin: 1rem;
+}
+
+.img-fluid {
+    margin: 3rem 0 0 0;
 }
 
 /*computador*/
@@ -426,6 +447,10 @@ iframe {
 
 
 /*PAGINA INTERNA*/
+.box_interno {
+    height: 100%;
+}
+
 .cards_interno {
     background-color: #E6E9EE;
 }
@@ -472,6 +497,7 @@ iframe {
 /*celular*/
 @media (max-width: 600px) {
    .modelo_interno {
-       height: 50%;
+       height: 100%;
+       width: 100%;
    }
 }

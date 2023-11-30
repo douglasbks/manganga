@@ -7,7 +7,7 @@
             <h1>ASSOCIAÇÃO SÓCIO CULTURAL DE CAPOEIRA BLOCO CARNAVALESCO AFRO <span class="maganga-roxo">MANGANGÁ</span>
             </h1>
             <div class="d-none d-sm-block">
-                <img src="img/home.png" class="botao_icone">
+                <img onclick="home()" src="img/home.png" class="botao_icone">
                 <button onclick="interno()" class="botao_menu botao_azul">MANGANGÁ</button>
                 <button onclick="interno()" class="botao_menu botao_verde">PATRONO TONHO MATÉRIA</button>
                 <button onclick="interno()" class="botao_menu botao_laranja">PROJETOS EDUCACIONAIS</button>
@@ -46,5 +46,9 @@
 <script>
     function interno() {
         window.location="?pag=interno";
+    }
+
+    function home() {
+        window.location="/"
     }
 </script>

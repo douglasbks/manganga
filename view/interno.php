@@ -2,7 +2,7 @@
 <div class="cards_interno">
     <p class="texto_barra">Mangangá</p>
     <div class="row">
-        <div class="col-12 col-md-6">
+        <div class="col-12 col-md-6 box_interno">
             <img class="modelo_interno" src="img/fig_modelo_interno.png">
         </div>
         <div class="col-12 col-md-6">
