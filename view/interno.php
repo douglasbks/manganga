@@ -18,7 +18,8 @@
                 officia hic totam
                 excepturi et galisum voluptates.</p>
             <br><br>
-            <h2 class="box_subtitulo">História <i class="fa fa-arrow-circle-o-down fa-xs" aria-hidden="true" style="float: right; margin-top: 1rem; margin-right: 0.5rem"></i></h2>
+            <h2 class="box_subtitulo">História <i class="fa fa-arrow-circle-o-down fa-xs" aria-hidden="true"
+                                                  style="float: right; margin-top: 1rem; margin-right: 0.5rem"></i></h2>
             <br>
             <p class="texto-card-2">Lorem ipsum dolor sit amet. Eum voluptatem explicabo qui
                 laborum
@@ -80,42 +81,36 @@
         </div>
     </div>
 
-    <div class="row">
-        <div class="col-12 col-md-4">
+    <div class="row justify-content-center">
+        <div class="col-12 col-md-4 mb-3">
             <div class="card card-preto">
                 <img src="img/modelo01.jpg" class="img_card_preto">
-                <div class="card-body">
+                <div class="card-body card-preto-body">
                     <h5 class="card-title titulo-card-preto">José Silva</h5>
                     <p class="card-text texto-card-preto">Capoeira e instrumentos</p>
-                    <div class="text-center">
-                        <a href="#" class="btn btn-secondary">ver</a>
-                    </div>
+                    <a href="#" class="btn btn-secondary">ver</a>
                 </div>
             </div>
         </div>
 
-        <div class="col-12 col-md-4">
+        <div class="col-12 col-md-4 mb-3">
             <div class="card card-preto">
                 <img src="img/modelo02.jpg" class="img_card_preto">
-                <div class="card-body">
+                <div class="card-body card-preto-body">
                     <h5 class="card-title titulo-card-preto">Pedro Henrique</h5>
                     <p class="card-text texto-card-preto">Música</p>
-                    <div class="text-center">
-                        <a href="#" class="btn btn-secondary">ver</a>
-                    </div>
+                    <a href="#" class="btn btn-secondary">ver</a>
                 </div>
             </div>
         </div>
 
-        <div class="col-12 col-md-4">
+        <div class="col-12 col-md-4 mb-3">
             <div class="card card-preto">
                 <img src="img/modelo03.jpg" class="img_card_preto">
-                <div class="card-body">
+                <div class="card-body card-preto-body">
                     <h5 class="card-title titulo-card-preto">João Carlos</h5>
                     <p class="card-text texto-card-preto">Teatro</p>
-                    <div class="text-center">
-                        <a href="#" class="btn btn-secondary">ver</a>
-                    </div>
+                    <a href="#" class="btn btn-secondary">ver</a>
                 </div>
             </div>
         </div>

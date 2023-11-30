@@ -370,21 +370,12 @@ iframe {
 
 }
 
-.box_subtitulo {
-    font-family: "Fira Sans";
-    font-size: 25px;
-    color: white;
-    border-style: solid;
-    border-color: #204669;
-    background-color: #204669;
-    width: 50%;
-}
-
 .btn-primary {
     background-color: #8C0000;
     border-color: #8C0000;
     font-family: 'Fira Sans';
     margin: 0 20px;
+    display: block;
 }
 
 .card-preto {
@@ -393,9 +384,9 @@ iframe {
 
 .titulo-card-2 {
     font-family: "Fira Sans";
-    font-size: 35px;
+    font-size: 25px;
     color: #1F4668;
-    margin: 0 5rem 0 0;
+    margin: 1rem;
 }
 
 .texto-card-2 {
@@ -435,7 +426,8 @@ iframe {
         border-radius: 10px;
         background-color: white;
         z-index: 1;
-        margin: -2rem 1rem 1rem 1rem
+        margin: -2rem 5rem 1rem 5rem;
+
     }
 
     .cartao-home-2 {
@@ -455,34 +447,43 @@ iframe {
     background-color: #E6E9EE;
 }
 
-.card-preto {
-    background-color: black;
-    width: 18rem;
+.box_subtitulo {
+    font-family: "Fira Sans";
+    font-size: 25px;
+    color: white;
+    border-style: solid;
+    border-color: #204669;
+    background-color: #204669;
+    width: 50%;
 }
 
-.img_card_preto {
-    margin: 0.5rem;
+.card-preto {
+    background-color: black;
+    width: 95%;
+    padding: 10px;
+    margin: 0.8rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-preto-body {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
 }
 
 .titulo-card-preto {
     font-family: "Fira Sans SemiBold";
     font-size: 18px;
     color: white;
-    text-align: center;
+    text-align: left;
 }
 
 .texto-card-preto {
     font-family: "Fira Sans";
     font-size: 14px;
     color: white;
-    text-align: center;
-}
-
-.text-center {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
+    text-align: left;
 }
 
 .btn-secondary {
@@ -492,6 +493,9 @@ iframe {
     border-radius: 1rem;
     font-family: "Fira Sans Bold";
     color: white;
+    margin-top: auto;
+    align-self: flex-end;
+    white-space: nowrap;
 }
 
 /*celular*/
@@ -500,4 +504,8 @@ iframe {
        height: 100%;
        width: 100%;
    }
+
+    .card-preto {
+        padding: 10px;
+    }
 }
