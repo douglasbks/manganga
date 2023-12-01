@@ -458,11 +458,22 @@ iframe {
 /*celular*/
 @media (max-width: 600px) {
     .cartao-home-1 {
+        margin: 1rem;
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     }
 
     .cartao-home-2 {
+        margin: 1rem;
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+
+    .img-card-2 {
+        float: right;
+        margin: 1rem;
+    }
+
+    .img-card-carrossel {
+       margin-left: 8rem;
     }
 }
 

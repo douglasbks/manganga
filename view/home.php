@@ -88,7 +88,7 @@
                         </div>
                     </div>
                     <div class="col-md-4">
-                        <img src="img/fig_box_proj.png" class="img-fluid rounded-start" alt="...">
+                        <img src="img/fig_box_proj.png" class="img-fluid rounded-start img-card-2" alt="...">
                     </div>
                 </div>
             </div>
@@ -109,7 +109,7 @@
                         </div>
                     </div>
                     <div class="col-md-4">
-                        <img src="img/fig_box_proj.png" class="img-fluid rounded-start" alt="...">
+                        <img src="img/fig_box_proj.png" class="img-fluid rounded-start img-card-2" alt="...">
                     </div>
                 </div>
             </div>
