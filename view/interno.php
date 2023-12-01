@@ -37,7 +37,7 @@
         </div>
     </div>
 
-    <div class="row">
+    <div class="row alinhamento-cards-2">
         <div class="col-12 col-md-6">
             <div class="card mb-3 cartao-home-2" style="max-width: 540px;">
                 <div class="row g-0">

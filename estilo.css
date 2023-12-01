@@ -488,6 +488,8 @@ iframe {
     border-color: #204669;
     background-color: #204669;
     width: 50%;
+    padding-left: 5px;
+    margin-left: 15px;
 }
 
 .card-preto {

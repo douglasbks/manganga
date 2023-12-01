@@ -34,7 +34,7 @@
     <div class="row alinhamento-cards-carrossel">
         <div class="col-md-4 col-12">
             <div class="card cartao-home-1">
-                <img src="img/icon_Proj_Ativos.png" class="card-img-top">
+                <img src="img/icon_Proj_Ativos.png" class="card-img-top img-card-carrossel">
                 <div class="card-body">
                     <h5 class="card-title numeral">26</h5>
                     <p class="card-text subtexto-card">Projetos Ativos</p>
@@ -47,7 +47,7 @@
 
         <div class="col-md-4 col-12">
             <div class="card cartao-home-1">
-                <img src="img/icon_Crian_Atend.png" class="card-img-top">
+                <img src="img/icon_Crian_Atend.png" class="card-img-top img-card-carrossel">
                 <div class="card-body">
                     <h5 class="card-title numeral">355</h5>
                     <p class="card-text subtexto-card">Crianças atendidas</p>
@@ -60,7 +60,7 @@
 
         <div class="col-md-4 col-12">
             <div class="card cartao-home-1">
-                <img src="img/icon_Port_Meninos.png" class="card-img-top">
+                <img src="img/icon_Port_Meninos.png" class="card-img-top img-card-carrossel">
                 <div class="card-body">
                     <h5 class="card-title numeral">45</h5>
                     <p class="card-text subtexto-card">Portfólios Meninos</p>
