@@ -351,6 +351,12 @@ iframe {
     background-color: #E6E9EE;
 }
 
+.alinhamento-cards-carrossel {
+    width: 90%;
+    align-items: center;
+    margin-left: 3.5rem;
+}
+
 .numeral {
     font-family: 'Impact';
     font-size: 100px;
@@ -374,8 +380,6 @@ iframe {
     background-color: #8C0000;
     border-color: #8C0000;
     font-family: 'Fira Sans';
-    margin: 0 20px;
-    display: block;
 }
 
 .card-preto {
@@ -419,15 +423,12 @@ iframe {
     }
 
     .cartao-home-1 {
-        width: 15rem;
-        height: 20rem;
         align-items: center;
         border-style: none;
         border-radius: 10px;
         background-color: white;
         z-index: 1;
-        margin: -2rem 5rem 1rem 5rem;
-
+        margin: -2rem 2.2rem 0 2.2rem;
     }
 
     .cartao-home-2 {

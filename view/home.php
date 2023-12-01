@@ -31,14 +31,17 @@
 </div>
 
 <div class="cards_home">
-    <div class="row">
+    <div class="row alinhamento-cards-carrossel">
         <div class="col-md-4 col-12">
             <div class="card cartao-home-1">
                 <img src="img/icon_Proj_Ativos.png" class="card-img-top">
                 <div class="card-body">
                     <h5 class="card-title numeral">26</h5>
-                    <p class="card-text subtexto-card">Projetos Ativos</p><br>
-                    <a href="#" class="btn btn-primary">Veja mais</a>
+                    <p class="card-text subtexto-card">Projetos Ativos</p>
+                    <br>
+                    <div class="text-center align-self-center">
+                        <a href="#" class="btn btn-primary">Veja mais</a>
+                    </div>
                 </div>
             </div>
         </div>
@@ -49,7 +52,10 @@
                 <div class="card-body">
                     <h5 class="card-title numeral">355</h5>
                     <p class="card-text subtexto-card">Crianças atendidas</p>
-                    <a href="#" class="btn btn-primary">Veja mais</a>
+                    <br>
+                    <div class="text-center align-self-center">
+                        <a href="#" class="btn btn-primary">Veja mais</a>
+                    </div>
                 </div>
             </div>
         </div>
@@ -60,7 +66,10 @@
                 <div class="card-body">
                     <h5 class="card-title numeral">45</h5>
                     <p class="card-text subtexto-card">Portfólios Meninos</p>
-                    <a href="#" class="btn btn-primary">Veja mais</a>
+                    <br>
+                    <div class="text-center align-self-center">
+                        <a href="#" class="btn btn-primary">Veja mais</a>
+                    </div>
                 </div>
             </div>
         </div>
