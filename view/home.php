@@ -38,7 +38,6 @@
                 <div class="card-body">
                     <h5 class="card-title numeral">26</h5>
                     <p class="card-text subtexto-card">Projetos Ativos</p>
-                    <br>
                     <div class="text-center align-self-center">
                         <a href="#" class="btn btn-primary">Veja mais</a>
                     </div>
@@ -52,7 +51,6 @@
                 <div class="card-body">
                     <h5 class="card-title numeral">355</h5>
                     <p class="card-text subtexto-card">Crianças atendidas</p>
-                    <br>
                     <div class="text-center align-self-center">
                         <a href="#" class="btn btn-primary">Veja mais</a>
                     </div>
@@ -66,7 +64,6 @@
                 <div class="card-body">
                     <h5 class="card-title numeral">45</h5>
                     <p class="card-text subtexto-card">Portfólios Meninos</p>
-                    <br>
                     <div class="text-center align-self-center">
                         <a href="#" class="btn btn-primary">Veja mais</a>
                     </div>
@@ -75,7 +72,7 @@
         </div>
     </div>
     <br><br>
-    <div class="row">
+    <div class="row alinhamento-cards-2">
         <div class="col-12 col-md-6">
             <div class="card mb-3 cartao-home-2" style="max-width: 540px;">
                 <div class="row g-0">

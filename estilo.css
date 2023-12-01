@@ -351,12 +351,6 @@ iframe {
     background-color: #E6E9EE;
 }
 
-.alinhamento-cards-carrossel {
-    width: 90%;
-    align-items: center;
-    margin-left: 3.5rem;
-}
-
 .numeral {
     font-family: 'Impact';
     font-size: 100px;
@@ -415,11 +409,17 @@ iframe {
 /*computador*/
 @media (min-width: 601px) {
     .carousel-indicators {
-        bottom: 30px;
+        bottom: 35px;
     }
 
     .img_carrossel {
         height: 500px;
+    }
+
+    .alinhamento-cards-carrossel {
+        width: 60%;
+        align-items: center;
+        margin-left: 16rem;
     }
 
     .cartao-home-1 {
@@ -428,13 +428,31 @@ iframe {
         border-radius: 10px;
         background-color: white;
         z-index: 1;
-        margin: -2rem 2.2rem 0 2.2rem;
+        margin: -3rem 1rem 0 1rem;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+
+    .alinhamento-cards-2 {
+        width: 80%;
+        margin-left: 8.5rem;
     }
 
     .cartao-home-2 {
         border-style: none;
         background-color: white;
-        margin: 2rem;
+        margin: 0.5rem;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+}
+
+/*celular*/
+@media (max-width: 600px) {
+    .cartao-home-1 {
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+
+    .cartao-home-2 {
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     }
 }
 
