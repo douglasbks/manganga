@@ -13,7 +13,7 @@
                 <button onclick="interno()" class="botao_menu botao_laranja">PROJETOS EDUCACIONAIS</button>
                 <button onclick="interno()" class="botao_menu botao_amarelo">MÚSICA NAS EMPRESAS</button>
                 <button onclick="interno()" class="botao_menu botao_rosa">PORTFÓLIO MENINOS</button>
-                <img src="img/contato.png" class="botao_icone">
+                <img onclick="contato()" src="img/contato.png" class="botao_icone">
             </div>
         </div>
     </div>
@@ -50,5 +50,9 @@
 
     function home() {
         window.location="/"
+    }
+
+    function contato() {
+        document.getElementById('contato').scrollIntoView({ behavior: 'smooth' });
     }
 </script>

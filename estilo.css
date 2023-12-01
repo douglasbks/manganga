@@ -472,6 +472,10 @@ iframe {
     height: 100%;
 }
 
+.modelo_interno {
+    padding: 1rem;
+}
+
 .cards_interno {
     background-color: #E6E9EE;
 }

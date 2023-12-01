@@ -1,4 +1,4 @@
-<div class="contato">
+<div class="contato" id="contato">
     <img src="img/topo_formmail.png" class="barras">
     <p class="texto_barra">Contato Mangangá</p>
     <form>
