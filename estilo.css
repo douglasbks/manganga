@@ -209,16 +209,13 @@ body {
 }
 
 .maps {
-    border-style: solid;
-    border-color: #CACAD2;
-    margin-top: 0.5rem;
+    display: block;
 }
 
 iframe {
     margin: 0.75rem 0;
-    border-style: solid;
-    border-color: #CACAD2;
     display:block;
+    border: 1px solid #CACAD2;
 }
 
 .endereco-label {
@@ -307,6 +304,10 @@ iframe {
         margin-top: -1.5rem;
         font-size: 1rem;
     }
+
+    iframe {
+        width: 300px;
+    }
 }
 
 /*computador*/
@@ -326,10 +327,14 @@ iframe {
 
     .texto_rodape {
         padding: 0 0 0 10rem;
+        white-space: nowrap;
+        text-align: center;
     }
 
     .copyright {
-        margin-right: 2rem;
+        margin-right: 10rem;
+        white-space: nowrap;
+        text-align: center;
     }
 }
 
@@ -435,6 +440,7 @@ iframe {
     .alinhamento-cards-2 {
         width: 80%;
         margin-left: 8.5rem;
+        padding-bottom:30px;
     }
 
     .cartao-home-2 {
